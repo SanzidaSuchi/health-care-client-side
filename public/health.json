@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Voices from the Lab",
+        "research": "Cancer",
+        "description": "Scientists dedicate their lives to finding answers for patients, whether they are suffering from a rare disease or living with an all too familiar diagnosis of cancer.",
+        "img": "https://i.ibb.co/XSs55sq/c5.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Our commitment to fight COVID-19",
+        "research": "Covid",
+        "description": "Throughout the ongoing pandemic, Sanofi has joined forces to fight COVID-19 in every way possible.",
+        "img": "https://i.ibb.co/CzQQWwr/c2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "World Heart Day",
+        "reserch": "Heart",
+        "description": "It’s Time for a Flu Shot.",
+        "img": "https://i.ibb.co/NZQQcWf/c1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rare Humanitarian Program Turns 30",
+        "reserch": "Rare humanitarian",
+        "description": "Our purpose is clear–to help ensure that people living with rare diseases around the world have the ability to access the treatments they need.",
+        "img": "https://i.ibb.co/DVFrsmn/c4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Join us!",
+        "research": "How healthy",
+        "description": "You will join a diverse mix of people, who genuinely believe in our mission to help people around the world live healthier lives.",
+        "img": "https://i.ibb.co/hWFccjw/c7.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Press releases",
+        "research": "All",
+        "description": "New long-term data reinforcing promising safety and efficacy profile of brain-penetrant tolebrutinib presented at ECTRIMS 2021 ",
+        "img": "https://i.ibb.co/kD9VLLj/c3.jpg"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
