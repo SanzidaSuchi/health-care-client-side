@@ -15,7 +15,7 @@ Live Site : https://health-care-1b160.web.app/
 Technology we used to build this project:
 - HTML
 - CSS
-- JS
+- React router dom
 - React
--React Bootstrap
+- React Bootstrap
 
