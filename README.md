@@ -10,7 +10,7 @@ Description: 1.Healthcare Pharmaceuticals limited (HPL) is one of the best kinds
 5.Later on, in 1996 Healthcare decided to establish its own pharmaceutical plant named Healthcare Pharmaceuticals Limited (HPL) to produce the products those are imported from Roche, Switzerland and other local generics for indigenous market
 
 # 
-Live Site : https://adoring-shaw-88748c.netlify.app/services
+Live Site : https://health-care-1b160.web.app/
 #
 Technology we used to build this project:
 - HTML
