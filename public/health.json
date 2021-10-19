@@ -16,14 +16,14 @@
     {
         "id": 3,
         "name": "World Heart Day",
-        "reserch": "Heart",
+        "research": "Heart",
         "description": "It’s Time for a Flu Shot.",
         "img": "https://i.ibb.co/NZQQcWf/c1.jpg"
     },
     {
         "id": 4,
         "name": "Rare Humanitarian Program Turns 30",
-        "reserch": "Rare humanitarian",
+        "research": "Rare humanitarian",
         "description": "Our purpose is clear–to help ensure that people living with rare diseases around the world have the ability to access the treatments they need.",
         "img": "https://i.ibb.co/DVFrsmn/c4.jpg"
     },
@@ -41,6 +41,7 @@
         "description": "New long-term data reinforcing promising safety and efficacy profile of brain-penetrant tolebrutinib presented at ECTRIMS 2021 ",
         "img": "https://i.ibb.co/kD9VLLj/c3.jpg"
     }
+   
 ]
 
 

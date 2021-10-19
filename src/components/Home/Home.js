@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel, Container, Row } from 'react-bootstrap';
 import Service from './../Service/Service';
 import useAuth from '../../hooks/useAuth';
+import Medicines from '../Medicines/Medicines';
 
 
 const Home = () => {
@@ -75,6 +76,7 @@ const Home = () => {
             </Row>
           </div>
         </Container>
+        <Medicines></Medicines>
         </div>
     );
 };

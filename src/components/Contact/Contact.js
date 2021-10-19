@@ -11,13 +11,13 @@ const Contact = () => {
               <Row>
                 <Col sm>
                   <Form.Group className="mb-3" controlId="formBasicText">
-                    <Form.Label>Name: </Form.Label>
+                    <Form.Label>Your Name </Form.Label>
                     <Form.Control type="text" placeholder="Enter Your Name" />
                   </Form.Group>
                 </Col>
                 <Col sm>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email: </Form.Label>
+                    <Form.Label>Your Email </Form.Label>
                     <Form.Control type="email" placeholder="Enter Your Email" />
                   </Form.Group>
                 </Col>
@@ -33,7 +33,7 @@ const Contact = () => {
               >
                 <Form.Label>Your Queries....</Form.Label>
                 <Form.Control
-                  placeholder="Write you message..."
+                  placeholder=" Description..."
                   as="textarea"
                   rows={3}
                 />

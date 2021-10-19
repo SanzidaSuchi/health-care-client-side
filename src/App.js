@@ -11,6 +11,7 @@ import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route  path="/signup">
         <SignUp></SignUp>
+        </Route>
+        <Route  path="/details/:serviceId">
+        <ServiceDetails></ServiceDetails>
         </Route>
         <Route  path="*">
         <NotFound></NotFound>
