@@ -12,6 +12,7 @@ import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -42,9 +43,11 @@ function App() {
         <Route  path="/signup">
         <SignUp></SignUp>
         </Route>
-        <Route  path="/details/:serviceId">
+        
+        <PrivateRoute  path="/details/:serviceId">
         <ServiceDetails></ServiceDetails>
-        </Route>
+        </PrivateRoute>
+
         <Route  path="*">
         <NotFound></NotFound>
         </Route>

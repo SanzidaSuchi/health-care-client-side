@@ -19,6 +19,7 @@ const auth = getAuth();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
+  const [loading, setLoad] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
@@ -69,6 +70,7 @@ const useFirebase = () => {
       if (currentUser) {
         setUser(currentUser);
       }
+      setLoad(false)
     });
     return () => unsubscribe;
   }, [user]);
@@ -129,6 +131,7 @@ const useFirebase = () => {
     signInWithEmail,
     getName,
     getPhotoURL,
+    loading
   };
 };
 

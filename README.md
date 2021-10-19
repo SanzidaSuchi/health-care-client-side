@@ -17,4 +17,5 @@ Technology we used to build this project:
 - CSS
 - JS
 - React
+-React Bootstrap
 

@@ -7,13 +7,15 @@ import { NavLink, useLocation, useHistory } from "react-router-dom";
 import google from "./../../images/google.png";
 
 const Login = () => {
-    const { getEmail,getPassword,signInWithEmail, error,  setUser,setError,signInWithGoogle, } = useAuth();
+  const {allContext}= useAuth();
+    const { getEmail,getPassword,signInWithEmail, error,  setUser,setError,signInWithGoogle } = allContext;
   const history = useHistory();
 
   const location = useLocation();
   const redirect = location?.state?.from || "/home";
 
-  const  googleSignIn =()=>{
+  const  googleSignIn =(e)=>{
+    e.preventDefault()
     signInWithGoogle()
     .then((result) => {
       

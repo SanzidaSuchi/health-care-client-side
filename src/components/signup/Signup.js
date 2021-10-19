@@ -11,9 +11,9 @@ import {
 import { NavLink } from "react-router-dom";
 
 const Signup = () => {
-    const { AllContexts } = useAuth();
+    const { allContext } = useAuth();
 
-    const { getPhoto, getName, singUp, getEmail, getPassword, error } = AllContexts;
+    const { getPhoto, getName, singUp, getEmail, getPassword, error } = allContext;
     return (
         
              <div className="text-center my-4">
@@ -21,7 +21,11 @@ const Signup = () => {
       <p className=" mt-2">Sign Up with Email & Password</p>
       <p className="text-danger text-center">{error}</p>
       <div className="w-25 mx-auto">
-        <Form onSubmit={singUp}>
+        <Form onSubmit={(e)=>{
+            e.preventDefault()
+            singUp()
+            .then(() => alert('success'))
+        }}>
           <Row>
             <Col className="text-start">
               <Form.Label htmlFor="name" visuallyHidden>
