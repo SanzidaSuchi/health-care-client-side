@@ -8,8 +8,6 @@ const AuthProvider = (props) => {
   const allContext = useFirebase();
   const [services] = useServices();
   
-  
-
   const data = {
     services,
     allContext,

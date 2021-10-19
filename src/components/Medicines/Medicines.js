@@ -48,7 +48,7 @@ const medicines = [
 const Medicines = () => {
     return (
         <div className="container">
-            <h2 className="text-primary mt-3 App">Our Medicine</h2>
+            <h2 className="text-primary mt-2 App">Our Medicine</h2>
             <div className="row">
                 {
                     medicines.map(medicine => <Medicine
