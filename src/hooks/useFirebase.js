@@ -44,13 +44,8 @@ const useFirebase = () => {
  
 
   //signInWithEmailAndPassword
-  const signInWithEmail = (e) => {
-    e.preventDefault();
-    signInWithEmailAndPassword(auth, email, password)
-      .then((res) => {
-        setUser(res.user);
-      })
-      .catch((err) => setError(err.message));
+  const signInWithEmail = () => {
+   return signInWithEmailAndPassword(auth, email, password)
   };
 
   // sign out
