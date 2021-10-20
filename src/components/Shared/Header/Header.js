@@ -39,7 +39,7 @@ const Header = () => {
                 Services
               </Nav.Link>
 
-              {!displayName ? (
+              {!email ? (
                 <>
                   <Nav.Link as={NavLink} to="/signup" className="text-white">
                     Sign Up

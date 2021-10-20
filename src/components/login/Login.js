@@ -8,7 +8,7 @@ import google from "./../../images/google.png";
 
 const Login = () => {
   const {allContext}= useAuth();
-    const { getEmail,getPassword,signInWithEmail, error,  setUser,setError,signInWithGoogle } = allContext;
+    const { getEmail,getPassword,signInWithEmail, error,user,  setUser,setError,signInWithGoogle } = allContext;
   const history = useHistory();
 
   const location = useLocation();
@@ -34,6 +34,7 @@ const Login = () => {
             e.preventDefault()
             signInWithEmail()
               .then((result) => {
+                console.log(result.user);
                 setUser(result.user);
                 history.push(redirect);
               })

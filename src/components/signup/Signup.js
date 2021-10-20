@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 const Signup = () => {
     const { allContext } = useAuth();
 
-    const { getPhoto, getName, signUpWithEmail, getEmail, getPassword, error } = allContext;
+    const { getPhotoURL, setUserName, getName,setUser, signUpWithEmail, getEmail, getPassword, error } = allContext;
     return (
         
              <div className="text-center my-4">
@@ -24,7 +24,11 @@ const Signup = () => {
         <Form onSubmit={(e)=>{
             e.preventDefault()
             signUpWithEmail()
-            .then(() => alert('success'))
+            .then(() =>{
+              setUser({})
+              setUserName()
+               alert('success')
+            })
         }}>
           <Row>
             <Col className="text-start">
@@ -97,7 +101,7 @@ const Signup = () => {
                 </InputGroup.Text>
                 <FormControl
                   required
-                  onBlur={getPhoto}
+                  onBlur={getPhotoURL}
                   type="text"
                   autoComplete="current-text"
                   id="photo"

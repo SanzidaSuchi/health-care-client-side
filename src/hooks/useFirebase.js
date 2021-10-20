@@ -89,6 +89,7 @@ const useFirebase = () => {
 
   // signUp
   const signUpWithEmail = () => {
+   
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
@@ -127,6 +128,7 @@ const useFirebase = () => {
     getName,
     getPhotoURL,
     loading
+    
   };
 };
 
