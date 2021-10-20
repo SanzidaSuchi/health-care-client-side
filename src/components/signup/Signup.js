@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 const Signup = () => {
     const { allContext } = useAuth();
 
-    const { getPhotoURL, setUserName, getName,setUser, signUpWithEmail, getEmail, getPassword, error } = allContext;
+    const { getPhotoURL, setUserName, getName,setUser,logOut, signUpWithEmail, getEmail, getPassword, error } = allContext;
     return (
         
              <div className="text-center my-4">
@@ -25,8 +25,9 @@ const Signup = () => {
             e.preventDefault()
             signUpWithEmail()
             .then(() =>{
-              setUser({})
+              logOut()
               setUserName()
+            
                alert('success')
             })
         }}>

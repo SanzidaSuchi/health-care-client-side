@@ -16,9 +16,9 @@ const Header = () => {
     return (
         <div>
             <Navbar style={{ background: `url(${HeaderBG})`}} expand="lg">
-  <Container>
+        <Container>
    
-    <Navbar.Brand as={NavLink} className="text-white" to="/home">
+          <Navbar.Brand as={NavLink} className="text-white" to="/home">
             <img width="180px" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

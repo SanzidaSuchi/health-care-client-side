@@ -10,7 +10,7 @@ const Login = () => {
   const {allContext}= useAuth();
     const { getEmail,getPassword,signInWithEmail, error,user,  setUser,setError,signInWithGoogle } = allContext;
   const history = useHistory();
-
+console.log(user)
   const location = useLocation();
   const redirect = location?.state?.from || "/home";
 
